@@ -1,0 +1,117 @@
+body {
+    background-color: #FFE9EF;
+}
+
+#navbarlinks{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	background-color: #FFC9D7;
+	display: flex;
+	justify-content: center;
+	position: static;
+	top: 3px;
+	width: 100%;
+	border-radius: 35px;
+	
+}
+#navbarlinks li{
+	float: left;
+}
+
+#navbarlinks li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#navbarlinks li a:hover{
+	background-color: #FC809F;
+}
+
+#navbarlinks li a:active{
+	background-color: #FFE9EF;
+}
+
+#flexintro{
+	display: flex;
+}
+
+#myimg{
+	margin-left: 150px;
+	width: 300px;
+}
+
+#myintro{
+	margin-left: 400px;
+	margin-top: 200px;
+}
+
+#introtext{
+	text-align: center;
+	font-size:  32px;
+}
+
+#img1{
+	width: 900px;
+	height: 700px;
+	margin-left: 300px;
+	position: relative;
+
+}
+
+#myimg{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#img2{
+	position: absolute;
+	z-index: 2;
+	width: 500px;
+	height: 400px;
+	margin-right: 200px;
+	margin-top: -50px;
+}
+
+#footer{
+	background-color: #FFC9D7;
+	display: flex;
+	justify-content: space-evenly;
+	border-radius: 35px;
+	color: white;
+}
+
+#footer a{
+	color: white;
+}
+
+#footer a:hover{
+	color: #FC809F;
+}
+
+#footer a:active{
+	color: #FFE9EF;
+}
+
+h1, p, a, li{
+	font-family: "Times New Roman", sans-serif, serif;
+}
+
+#footer p{
+	font-size: 20px;
+}
+
+@media(min-width:600px) and (max-width:900px) {
+	#myintro{
+	margin-left: 350px;
+	}
+}
+
+
+
+
+

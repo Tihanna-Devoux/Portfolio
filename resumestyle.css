@@ -1,0 +1,178 @@
+body {
+    background-color: #FFE9EF;
+}
+
+#navbarlinks{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	background-color: #FFC9D7;
+	display: flex;
+	justify-content: center;
+	position: static;
+	top: 3px;
+	width: 100%;
+	border-radius: 35px;
+	
+}
+#navbarlinks li{
+	float: left;
+}
+
+#navbarlinks li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#navbarlinks li a:hover{
+	background-color: #FC809F;
+}
+
+#navbarlinks li a:active{
+	background-color: #FFE9EF;
+}
+
+
+.center{
+	text-align: center;
+}
+
+#Education{
+	border-width: 2px;
+	border-top: dashed;
+	border-color: #FC809F;
+}
+
+#edu1, #edu2, #edu3{
+	border-radius: 50px;
+	background-color: #FFC9D7;
+	width: 250px;
+	box-shadow: 10px 10px 5px gray;
+}
+
+#edu2{
+	margin-left: 500px;
+}
+
+#edu3{
+	margin-left: 1000px;
+}
+
+#Skills{
+	border-width: 2px;
+	border-top: dashed;
+	border-color: #FC809F;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+#skill{
+	border-radius: 50px;
+	background-color: #FFC9D7;
+	width: 50px;
+	padding: 10px;
+	box-shadow: 10px 10px 5px gray;
+	transition: transform 0.5s ease;
+
+}
+
+#Skills p:hover{
+	transform:scale(2, 2);
+}
+
+#Skills2{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#skill2{
+	border-radius: 50px;
+	background-color: #FFC9D7;
+	width: 65px;
+	padding: 10px;
+	box-shadow: 10px 10px 5px gray;
+	transition: transform 0.5s ease;
+}
+
+#Skills2 p:hover{
+	transform:scale(2, 2);
+}
+
+#Experience{
+	border-width: 2px;
+	border-top: dashed;
+	border-color: #FC809F;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+div.expitem{
+	margin: 5px;
+	border-width: 1px;
+	border: solid;
+	border-color: white;
+}
+
+div.expitem:hover{
+	border-width: 1px;
+	border: solid;
+	border-color: #777;
+}
+
+
+div.expitem div.desc{
+	padding: 15px;
+	text-align: center;
+}
+
+
+#footer{
+	background-color: #FFC9D7;
+	display: flex;
+	justify-content: space-evenly;
+	border-radius: 35px;
+	color: white;
+}
+
+#footer a{
+	color: white;
+}
+
+#footer a:hover{
+	color: #FC809F;
+}
+
+#footer a:active{
+	color: #FFE9EF;
+}
+
+h1, p, a, li{
+	font-family: "Times New Roman", sans-serif, serif;
+}
+
+#footer p{
+	font-size: 20px;
+}
+
+section{
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+
+@media(min-width:600px) and (max-width:900px) {
+	#edu2{
+	margin-left: 150px;
+}
+
+	#edu3{
+	margin-left: 300px;
+	}
+}
+
+
+
